@@ -1,0 +1,6 @@
+# keep example and reference files byte-exact (verify.py compares bytes)
+*.vvm   -text
+*.vvmp  -text
+*.xyz   -text
+*.hdf5  binary
+*.pdf   binary

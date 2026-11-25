@@ -1,0 +1,7 @@
+PROPERTY = "SED2"  ! Name of property to regrid
+MULTIPLICITY = 1   ! Multiplicity (integer) old cell side / new cell side
+HORIZONTALIZE = 0  ! Whether to horizontalize base (0: NO, 1: YES)
+CELLTHICK = 10     ! Cell thickness (m)
+EMPTYVALUE = -1    ! Empty value
+HEADERS = 2        ! Headers: 0: None (plain grid), 1:vvm (SedArchView), 2:GsLib (SGeMS)
+

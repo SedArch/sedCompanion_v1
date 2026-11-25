@@ -1,0 +1,24 @@
+POR1_0 = 0.40    ! SED1 porosity (fraction) at deposition
+POR1_1000 = 0.35 ! SED1 porosity (fraction) at 1000 m
+PERM1_0 = 1000   ! SED1 horiz. permeability (mD) at deposition
+PERM1_1000 = 900 ! SED1 horiz. permeability (mD) at 1000 m
+PERMRATIO1 = 1   ! SED1 permeability ratio (hor/vert) after burial
+
+POR2_0 = 0.30    ! SED2 porosity (fraction) at deposition
+POR2_1000 = 0.25 ! SED2 porosity (fraction) at 1000 m
+PERM2_0 = 500    ! SED2 horiz. permeability (mD) at deposition
+PERM2_1000 = 100 ! SED2 horiz. permeability (mD) at 1000 m
+PERMRATIO2 = 2   ! SED2 permeability ratio (hor/vert) after burial
+
+POR3_0 = 0.20    ! SED3 porosity (fraction) at deposition
+POR3_1000 = 0.10 ! SED3 porosity (fraction) at 1000 m
+PERM3_0 = 200    ! SED3 horiz. permeability (mD) at deposition
+PERM3_1000 = 32  ! SED3 horiz. permeability (mD) at 1000 m
+PERMRATIO3 = 10  ! SED3 permeability ratio (hor/vert) after burial
+
+POR4_0 = 0.40    ! SED4 porosity (fraction) at deposition
+POR4_1000 = 0.04 ! SED4 porosity (fraction) at 1000 m
+PERM4_0 = 200   ! SED4 horiz. permeability (mD) at deposition
+PERM4_1000 = 10  ! SED4 horiz. permeability (mD) at 1000 m
+PERMRATIO4 = 100 ! SED4 permeability ratio (hor/vert) after burial
+ 
