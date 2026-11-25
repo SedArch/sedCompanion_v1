@@ -88,17 +88,6 @@ the reference outputs in `sedCompanion/output/`. From the repository root:
 python3 -m sedCompanion.verify sedCompanion
 ```
 
-## Rebuilding the user guide
-
-The guide is generated from `sedCompanion/docs_src/` (needs matplotlib, reportlab,
-Pillow and fontTools, and the macOS fonts Avenir Next, Georgia and Menlo):
-
-```bash
-cd sedCompanion/docs_src
-python3 make_figures.py     # figures -> docs_src/figures/
-python3 build_guide.py      # -> sedCompanion/SedCompanion_userdoc.pdf
-```
-
 ## Repository layout
 
 ```
@@ -109,7 +98,7 @@ sedCompanion/
 ├── verify.py              regression test
 ├── input/                 example model and parameter files
 ├── output/                reference results for the example
-├── docs_src/              figure and guide generators, figures
+├── docs_src/figures/      figures used in this README and the guide
 └── SedCompanion_userdoc.pdf
 ```
 

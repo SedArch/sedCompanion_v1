@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 work/
 .venv/
+
+# User-guide build scripts (kept locally only)
+sedCompanion/docs_src/*.py
